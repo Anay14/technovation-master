@@ -34,15 +34,15 @@
 									</ul><!-- /.contacts -->
 									
 									<div class="social-network">
-										<h3>Social</h3>
+									
 										<ul class="social">
 											<li><a href="https://www.facebook.com/pages/Technovation/153398628063238"><i class="icon-s-facebook"></i></a></li>
 											<li><a href="https://groups.google.com/forum/#!forum/technovation-council"><i class="icon-s-gplus"></i></a></li>
-											<li><a href="#"><i class="icon-s-twitter"></i></a></li>
-											
+								<!--			<li><a href="#"><i class="icon-s-twitter"></i></a></li>
+											-->
 										</ul><!-- /.social -->
-                    <br><br><br>Site Built By <h2>AKASH KISHORE</h2><br>
-					<ul class="footer-menu pull-left">
+                    
+				<!--	<ul class="footer-menu pull-left">
 						<li><a href="index.php">About</a></li>
 						
 						<li><a href="mentors1.php">Mentors</a></li>
@@ -151,7 +151,7 @@
 		
 		<footer class="dark-bg">
 			
-		  
+		  <!--
 			<div class="footer-bottom" class="pull-left">
 				<div class="container inner" class="pull-left">
 					<p class="pull-left">© STAB-IITB. All rights reserved.</p>
@@ -162,6 +162,21 @@
 						<li><a href="mentors1.php">Mentors</a></li>
 						
 						<li><a href="contact.php">Contact</a></li>
+					</ul><!-- .footer-menu -->
+			<!--	</div><!-- .container -->
+			<!--</div><!-- .footer-bottom -->
+			<div class="footer-bottom">
+				<div class="container inner">
+					<p class="pull-left">© STAB-IITB. All rights reserved.</p>
+					<ul class="footer-menu pull-right">
+					<li><a href="index.html">Home</a></li>
+						<li><a href="#about">About</a></li>
+						
+					<!--  Mentor footer
+					<li><a href="mentors1.php">Mentors</a></li>
+					-->
+						
+						<li><a href="contacts.php">Contact</a></li>
 					</ul><!-- .footer-menu -->
 				</div><!-- .container -->
 			</div><!-- .footer-bottom -->
@@ -205,5 +220,6 @@
 			});
 		</script>
 		<!-- For demo purposes – can be removed on production : End -->
+		
 	</body>
 </html>

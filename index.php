@@ -129,15 +129,17 @@
 							<header>
 								
 <p style="text-align: justify; ">	
-<div class="alert alert-info fade in">
+       <!-- <div class="alert alert-info fade in">
             <button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>
             <strong>Updates!</strong>
             <br/>  Summer Technovation is here !!! <a href="http://technovation.stab-iitb.org/Technovation.php"><b>click here</b></a> to visit the page
             
             
-      </div>							
-<strong>About</strong><br>
-Technovation is a unique institute wide innovation program under Students’ Technical Activity Body (STAB), IIT Bombay. It is a platform where students can float their innovative ideas, get funded, find mentors, build a dedicated team and realize their dream project. It is also a platform for professors, industries, alumni and social organizations who can float projects on which students can engage and come up with engineering solutions to a plethora of problems all around us and fulfill the urgent need of innovation India is facing. Apart from these, Technovation provides an opportunity to students to join the project teams and learn the journey from an idea to its execution while contributing to the team.
+      </div>	-->						
+<div id="about">
+<p>
+<h1>About</h1><br></p>
+<p>Technovation is a unique institute wide innovation program under Students’ Technical Activity Body (STAB), IIT Bombay. It is a platform where students can float their innovative ideas, get funded, find mentors, build a dedicated team and realize their dream project. It is also a platform for professors, industries, alumni and social organizations who can float projects on which students can engage and come up with engineering solutions to a plethora of problems all around us and fulfill the urgent need of innovation India is facing. Apart from these, Technovation provides an opportunity to students to join the project teams and learn the journey from an idea to its execution while contributing to the team.
 
 </p><p style="text-align: justify; ">
 <strong>Why Technovation?</strong><br /> 
@@ -158,15 +160,32 @@ Even if you have a rough idea and are not confident, please write to us at iitbt
 </p>
 
 </div>
-
+</div>
   </div>
   <br/>
   <br/>
 
 </div>
 </header>
+<script src="assets/js/jquery-1.11.3.js"></script>
+ <script>$(document).ready(function(){
+  $('a[href*=#]').click(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'')
+    && location.hostname == this.hostname) {
+      var $target = $(this.hash);
+      $target = $target.length && $target
+      || $('[name=' + this.hash.slice(1) +']');
+      if ($target.length) {
+        var targetOffset = $target.offset().top;
+        $('html,body')
+        .animate({scrollTop: targetOffset}, 1000);
+       return false;
+      }
+    }
+  });
+});
 						
-		<?php
+</script>		<?php
 
 		include 'footer.php';
 		?>

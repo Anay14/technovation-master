@@ -5,7 +5,7 @@
 			<div class="container inner">
 
 					<div class="pull-left">
-						<h4>Get In Touch</h4>
+						<h3>Get In Touch</h3>
 						<p>Find us in New Tinkeres Lab</p>
 						<ul class="contacts">
 							<li><i class="icon-location contact"></i> Behind Tree Labs near Mechanical Department,&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <br/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;IIT Bombay, Powai, Mumbai</li>
@@ -16,9 +16,10 @@
 					
 					
 					<div class="pull-right"style="width: 244px">
-						<h4>Site Maintained By</h4>
-						<h3>Akash Kishore <p>9967342805</p></h3>
-						<h3><a href="http://prateekchandan.me">Prateek Chandan</a></h3>
+						<h3>Site Maintained By</h3>
+						<h4>Anay Tripathi <p>8879049043</p></h4>
+						<h4>Akash Kishore </h3>
+						<h4><a href="http://prateekchandan.me">Prateek Chandan</a></h4>
 					
 					</div><!-- /.row --> 
 			</div><!-- .container -->
@@ -27,9 +28,12 @@
 				<div class="container inner">
 					<p class="pull-left">© STAB-IITB. All rights reserved.</p>
 					<ul class="footer-menu pull-right">
-						<li><a href="index.php">About</a></li>
+					<li><a href="index.html">Home</a></li>
+						<li><a href="#about">About</a></li>
 						
-						<li><a href="mentors1.php">Mentors</a></li>
+					<!--  Mentor footer
+					<li><a href="mentors1.php">Mentors</a></li>
+					-->
 						
 						<li><a href="contacts.php">Contact</a></li>
 					</ul><!-- .footer-menu -->

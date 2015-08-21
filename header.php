@@ -19,8 +19,8 @@ if(!isset($title)){
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-		<meta name="description" content="">
-		<meta name="author" content="">
+		<meta name="description" content="Technovation, IIT Bombay">
+		<meta name="author" content="Anay Tripathi ,IIT Bombay">
 		
 		<title><?php echo $title; ?></title>
 		
@@ -83,7 +83,7 @@ if(!isset($title)){
 						
 						<!-- ============================================================= LOGO MOBILE ============================================================= -->
 						
-						<a class="navbar-brand" href="index.php"><img src="assets/images/logo.jpg" class="logo" alt=""></a>
+						<a class="navbar-brand" href="index.php"><img src="assets/images/logo.png" class="logo" alt=""></a>
 						
 						<!-- ============================================================= LOGO MOBILE : END ============================================================= -->
 						
@@ -108,9 +108,9 @@ if(!isset($title)){
 							<ul class="nav navbar-nav">
 								
 								<li class="dropdown ">
-									<a href="#" class="dropdown-toggle js-activated">About</a>
+									<a href="index.php#about" >About</a>
 									
-									<ul class="dropdown-menu">
+									<!--<ul class="dropdown-menu">
 										
 										<li><a href="index.php">Technovation</a></li>
 										<li><a href="http://www.stab-iitb.org" target="_blank">Stab</a></li>
@@ -120,7 +120,7 @@ if(!isset($title)){
 								
 								
 								<li class="dropdown ">
-									<a href="#" data-toggle="modal" data-target="#myModal">Summer Technovation Registration</a>
+									<a href="#" data-toggle="modal" data-target="#myModal"> Registration</a>
 									
 								<!--	<ul class="dropdown-menu">
 										<li><a href="#" data-toggle="modal" data-target="#myModal">Submit your Idea </a></li>
@@ -131,17 +131,18 @@ if(!isset($title)){
 								
 									<!-- Modal -->
 								<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" >
-								  <div class="modal-dialog" style="position:relative;top:100px">
+								  <div class="modal-dialog" style="position:relative;top:200px">
 								    <div class="modal-content">
 								      <div class="modal-header" >
 								        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-								        <h4 class="modal-title" id="myModalLabel">Abstract Submission ( DeadLine : 19 april,2015 )</h4>
+								        <h4 class="modal-title" id="myModalLabel">Registration starts from August,21st </h4>
 								      </div>
 								      
 								     <div class="modal-body">
-								      Register your team by filling this form <br>
-								      <a style="font-size:15px" href="https://stab.typeform.com/to/Tm5uIz" target="_blank">https://stab.typeform.com/to/Tm5uIz</a>
-								        <br>Mail Your Abstract here : <span style="font-size:15px">technovation@stab-iitb.org<span>
+								      <!--Modal Body content goes here --> Visit us again.<br>
+								     <!-- <a style="font-size:15px" href="https://stab.typeform.com/to/Tm5uIz" target="_blank">https://stab.typeform.com/to/Tm5uIz</a> 
+								        <br>Mail Your Abstract here : <span style="font-size:15px">technovation@stab-iitb.org<span> -->
+										<br>We are always there to help you. 
 								      </div>
 								      <div class="modal-footer">
 								        <p style="font-size:15px">For any Queries , Please contact  <i><a href="https://www.facebook.com/umang147?fref=ts">Umang Chhaparia</a></i> : 9967346106 </p>
@@ -157,11 +158,11 @@ if(!isset($title)){
 								<li class="dropdown yamm-fullwidth ">
 									<a href="#" class="dropdown-toggle js-activated">Projects</a>
 									
-									<ul class="dropdown-menu yamm-dropdown-menu">
+									<ul class="dropdown-menu yamm-dropdown-menu" style="width:45%;left:40%">
 										<li>
 											<div class="yamm-content row">
 											
-												<div class="col-sm-3 inner">
+												<div class="col-sm-6 inner">
 													<h4>Social <br> Projects</h4>
 													
 															<p>TechGSR</p>
@@ -174,6 +175,7 @@ if(!isset($title)){
 													
 												</div><!-- /.col -->
 												
+												<!--  Health care Projects
 												<div class="col-sm-3 inner">
 													<h4>Health Care<br> Projects</h4>
 													<a href="healthCare.php" target="_blank" class="circled"><i><b>Healthcare Research</b></i></a><br><br>
@@ -182,11 +184,12 @@ if(!isset($title)){
                                                     <p style="margin:0px">For any queries call :</p>
                                                     Amaldev V.|| 9820481964<br>
 													</div>
-													
+													-->
 												
 												
 												
-												<div class="col-sm-3 inner">
+												
+											<!--	<div class="col-sm-3 inner">
 													<h4>Student Driven Projects</h4>
 													<ul class="circled">
 														<li><a href="cnc.pdf" target="_blank">CNC Laser cutting Machine</a></li>
@@ -196,23 +199,28 @@ if(!isset($title)){
 														<li><a href="tilt-rotor.php" target="_blank">Tilt-Rotor</a></li>
 														<li><a href="blind.pdf" target="_blank">Perception system for blinds</a></li>
 														
-													</ul><!-- /.circled -->
+													</ul><!-- /.circled ->
 												</div><!-- /.col -->
 
-												<div class="col-sm-3 inner">
+												<div class="col-sm-6 inner">
 													<h4>Previous Year's project</h4>
 													
 													<ul class="circled">
-													<li><a href="campusTransport.php">Campus Transport Tracking System</a></li>
+													<li><a href="http://tumtum-iitb.org/" target="_blank">Campus Transport Tracking System</a></li>
 													<li><a href="parinat.php">Parinat</a></li>
-														<li><a href="artificial.php">Artificial Instrumentalist</a></li>
-														<li><a href="skate-board.php">Balancing Skate Board</a></li>
-														<li><a href="peapod.php">Pea Pod Mac For MAsses</a></li>
+													<li><a href="cnc.pdf" target="_blank">CNC Laser cutting Machine</a></li>
+														<li><a href="dut1.pdf" target="_blank">Device under test</a></li>
+														<li><a href="Wall-climbing.pdf" target="_blank">Wall Climbing Bot</a></li>
+														
+														<li><a href="BrailleME-product.pdf" target="_blank">Refreshable braille display</a></li>
+													<!--	<li><a href="artificial.php">Artificial Instrumentalist</a></li>
+														<li><a href="skate-board.php">Balancing Skate Board</a></li> 
+														<li><a href="peapod.php">Pea Pod Mac For Masses</a></li>
 														<li><a href="roboticChess.php">Robotic Chess</a></li>
 														
 														<li><a href="nonContact.php">Non Contact Thermometer</a></li>
 														<li><a href="bookBot.php">Book Keeping Bot</a></li>
-														<li><a href="ornithopter.php">Ornithoper</a></li>
+														<li><a href="ornithopter.php">Ornithoper</a></li> -->
 														
 														
 														
@@ -227,15 +235,43 @@ if(!isset($title)){
 								<!-- ============================================================= MEGA MENU : END ============================================================= -->
 								
 								<li class="dropdown ">
+								    <a href="#" data-toggle="modal" data-target="#mentor"> Mentors</a>
+								
+									<!--   
 									<a href="mentors1.php" >Mentors</a>
 									
-								<!--	<ul class="dropdown-menu">
+									<ul class="dropdown-menu">
 										<li><a href="mentors1.php">Meet our Mentors</a></li>
 										
 									</ul><!-- /.dropdown-menu -->
-								<!--</li><!-- /.dropdown -->
+								</li><!-- /.dropdown -->
+								
+								<!-- ===============================Modal (mentors) ===============================================-->
+								<div class="modal fade" id="mentor" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" >
+								  <div class="modal-dialog" style="position:relative;top:200px">
+								    <div class="modal-content">
+								      <div class="modal-header" >
+								        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+								        <h4 class="modal-title" id="myModalLabel">Keep in touch</h4>
+								      </div>
+								      
+								     <div class="modal-body">
+								      <!--Modal Body content goes here -->Mentors panel will be launching soon.<br>
+								     <!-- <a style="font-size:15px" href="https://stab.typeform.com/to/Tm5uIz" target="_blank">https://stab.typeform.com/to/Tm5uIz</a> 
+								        <br>Mail Your Abstract here : <span style="font-size:15px">technovation@stab-iitb.org<span> -->
+										<br>
+								      </div>
+								      <div class="modal-footer">
+								        <p style="font-size:15px">For any Queries , Please contact  <i><a href="https://www.facebook.com/umang147?fref=ts">Umang Chhaparia</a></i> : 9967346106 </p>
+								        
+								      </div>
+								    </div>
+								  </div>
+								</div>
 								
 								
+								
+								<li class="dropdown"><a href="http://www.stab-iitb.org/tinkerers-lab/">Tinkerers' Lab</a></li>
 
 								<li class="dropdown ">
 									<a href="contacts.php" >Contacts</a>
